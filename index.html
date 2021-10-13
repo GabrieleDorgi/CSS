@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Síntese CSS</title>
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif ;
+            background-color:mistyrose;
+        }
+        h1{
+            background-color: rgb(248, 131, 89);
+            color:lightyellow;
+            text-align: center;
+        }
+        h2{
+            color:rgb(248, 131, 89);
+        }
+        h3{
+            color:darkred;
+        }
+        dt{
+            color:darkred
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS(Cascading Style Sheets)</h1>
+    <p>Cascading Style Sheets se traduz Folhas de Estilo em Cascata</p>
+    <p>CSS tem por objetivo estilizar o conteúdo de documentos HTML</p>
+
+     <h2>HTML 5-Conteúdo</h2>
+    <ul>
+        <li>texto;</li>
+        <li>tabela;</li>
+        <li>imagem;</li>
+        <li>vídeo.</li>
+    </ul>
+
+    <h2>CSS 3-Estilização de Conteúdo</h2>
+    <ul>
+        <li>cores;</li>
+        <li>fontes;</li>
+        <li>tamanho;</li>
+        <li>sombras;</li>
+        <li>posicionamento</li>
+    </ul>
+
+    <h3>Sintaxe</h3>
+    <p>Seletor{
+    <p>    propriedades:valor;/"comentário"/</p>
+    <p>    propriedades-subpropriedades:valor;</p>
+    <p>}</p>
+
+    <p>p{</p>
+      <p>  color:blue;</p>
+      <p>  text-align:center</p>
+    <p>}</p>
+
+    <h2>Formas de utilizar o CSS</h2>
+    <dl>
+        <dt><b>INLINE</b></dt>
+        <dd>os códigos CSS são deifinidos dentro de uma tag HTML.Afetam somente a tag em que foi definida.</dd>
+        <dt><b>INCORPORADO</b></dt>
+        <dd>os códigos CSS são deifinidos no cabeçalho, dentro da tag HEAD.Afetam somente o documento em que foi definido.</dd>
+        <dt><b>EXTERNO</b></dt>
+        <dd>os códigos CSS são deifinidos em um arquivo externo.Afetam todos os documentos linkados ao CSS</dd>
+    </dl>
+
+    <h2>demonstração Inline</h2>
+    <p>sintaxe:&lt;h3 style="color:yellow; background-color:darkorange; text-align:center;">CSS&gt;&lt;/h3&gt; </p>
+    <p>demonstração:</p>
+    <h3 style="color:lightyellow; background-color:rgb(248, 131, 89); text-align:center;">CSS</h3>
+
+    <h2>demonstração Incorporado</h2>
+    <p>sintaxe:&lt;style&gt;
+        <p>body{
+         <p>     font-family:Verdana, Geneva, Tahoma, sans-serif ;</p>
+         <p>    background-color:mistyrose    </p>
+         <p> }</p>
+         <p> h1{</p>
+         <p>    background-color: rgb(248, 131, 89);</p>
+         <p>   color:lightyellow;</p>
+         <p>   text-align: center;</p>
+         <p>}</p>
+         <p>h2{</p>
+         <p>   color:rgb(248, 131, 89);</p>
+         <p>}</p>
+         <p>h3{</p>
+         <p>    color:darkred;</p>
+         <p>}</p>
+         <p>dt{</p>
+         <p>   color:darkred;</p>
+         <p>}</p>
+         <p>&lt;/style&gt;</p></p>
+         <br>
+         <br>
+    <p>demonstração:definido no head:cores dos títulos, fontes, cor de fundo</p>
+
+    <h2>demonstração Externo</h2>
+    <p>sintaxe:&lt; link rel="stylesheet" href="css/style.css"&gt; </p>
+    <p>demonstração: utilizando outro arquivo HTML, com as mesmas definições de sintaxe do Incorporado</p>
+
+
+     
+
+</body>
+</html>
